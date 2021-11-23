@@ -1,0 +1,19 @@
+.tileGrid {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    padding:10px;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+}
+
+.menuFAB {
+    position: fixed; 
+    z-index: 999;
+    left: 93.5%;
+    transform: translate(30%, -390%);
+}

@@ -1,0 +1,42 @@
+.tileContent {
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    font-size: medium;
+    width: 100px;
+    flex-grow: 1;
+}
+
+.Tile {
+    padding-bottom: 10px;
+}
+
+.Tile img{
+    height: 4em;
+}
+
+.tileIconOverlap {
+    position:absolute; top: 0px; left: 10px; z-index: 1;
+    filter: drop-shadow(2px 2px 0px rgba(0, 0, 0, 0.4));
+    height: 3em !important;
+    
+} 
+.folderOverlap { 
+    position:absolute; 
+    top: 80px;
+    left: 100px;
+    height: 0.5em;
+    z-index: -1;
+} 
+
+.tileOverlap {
+    position: relative;
+}
+
+.Tile p {
+    text-transform: lowercase;
+}
+.Tile p::first-letter {
+    text-transform: uppercase;
+}
+
+
